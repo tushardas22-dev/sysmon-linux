@@ -1,0 +1,31 @@
+# Binaries and object files
+bin/
+build/
+*.o
+*.so
+*.a
+*.out
+*.exe
+
+# Kernel Module Build Artifacts
+driver/*.ko
+driver/*.mod
+driver/*.mod.c
+driver/*.mod.o
+driver/*.o
+driver/.*.cmd
+driver/Module.symvers
+driver/modules.order
+driver/.tmp_versions/
+
+# Logs and runtime dumps
+*.log
+core
+vgcore.*
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
