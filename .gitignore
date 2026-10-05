@@ -20,7 +20,7 @@ driver/.tmp_versions/
 
 # Logs and runtime dumps
 *.log
-core
+/core
 vgcore.*
 
 # IDE and Editor configurations
